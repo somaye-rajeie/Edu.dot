@@ -1,0 +1,148 @@
+@media screen and (max-width:1400px){
+    
+}
+@media screen and (max-width:1200px){
+    
+}
+@media screen and (max-width:992px){
+.header-references img{
+    width:10rem;
+}
+.header__image{
+    width:36rem;
+}
+.header__title{
+    font-size: 3.4rem;
+    line-height: 4.4rem;
+}
+.header__course-feature h2{
+    font-size: 3.4rem;
+    line-height: 4.5rem;
+}
+.header__course-feature p{
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+.how-it-work__wrapper{
+    max-width:40rem;
+    height: 40rem;
+}
+.how-it-work__wrapper h2{
+    font-size:2.4rem;
+    line-height: 2.4rem;
+}
+.how-it-work__item{
+  width: 24rem;
+  height: 24rem;
+  padding:2rem 0;
+}
+.how-it-work__item-img{
+    width:5rem;
+    height: 5rem;
+}
+.how-it-work__item-icon{
+  width: 24px;
+  height: 24px;
+}
+.how-it-work__item-title{
+font-size: 1.4rem;
+line-height: 1.4rem;
+}
+.how-it-work__item-text{
+  font-size: 1.2rem;
+}
+}
+@media screen and (max-width:768px){
+  .header__links{
+    display: none;
+  }
+  .nav__toggle-icon{
+    display: flex;
+  }
+  .menu{
+    flex-direction: column;
+    background-color: #fff;
+    position:absolute;
+    top:57px;
+    left:0;
+    right:0;
+    justify-content: center;
+    width:100%;
+    opacity: 1;
+    height: 0;
+    overflow: hidden;
+    transition: all 200ms ease-in;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    z-index: 3;
+}
+  .menu--open{
+    height: 25rem;
+  }
+  .header__image{
+    width:28rem;
+}
+}
+.how-it-work__wrapper{
+    max-width:28rem;
+    height: 28rem;
+}
+.how-it-work__wrapper h2{
+    font-size:1.6rem;
+    line-height: 1.6rem;
+}
+.how-it-work__item{
+  width: 18rem;
+  height: 18rem;
+  padding:1rem 0;
+}
+.how-it-work__item-img{
+    width:4rem;
+    height: 4rem;
+}
+.how-it-work__item-icon{
+  width: 16px;
+  height: 16px;
+}
+.how-it-work__item-title{
+font-size: 1rem;
+line-height: 1rem;
+}
+.how-it-work__item-text{
+  font-size: 1rem;
+}
+.how-it-work__item:nth-child(5){
+   left:-128px;
+}
+@media screen and (max-width:576px){
+.header-references img{
+    width:6rem;
+}
+.header__content{
+align-items: center;
+text-align: center;
+}
+.header__image{
+    margin:0 auto;
+}
+.how-it-work{
+  padding:27rem 0;
+}
+.how-it-work__wrapper{
+  flex-direction: column;
+  gap:1.5rem;
+  border:none;
+}
+.how-it-work__item{
+  position: static;
+}
+.header__books-left,
+.header__books-right{
+  display:none;
+}
+}
+@media screen and (max-width:450px){
+
+}
