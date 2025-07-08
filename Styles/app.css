@@ -562,3 +562,79 @@ margin-top: 11rem;
 .course-quality__play-icon path{
 /* opacity:1 !important; */
 }
+/* 
+
+===========================
+  section student-comments
+===========================
+
+*/
+
+.student-comments{
+background-color:rgba(255, 248, 225, 1);
+padding:4rem 0;
+}
+.student-comments__header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom:3rem;
+}
+.student-comments__header-title{
+   font-size: 4rem;
+   line-height: 5rem;
+   font-weight: 700;
+}
+.student-comments__wrapper{
+
+}
+.student-comment{
+    background-color: #fff;
+    border-radius:1px;
+    -webkit-border-radius:1px;
+    -moz-border-radius:1px;
+    -ms-border-radius:1px;
+    -o-border-radius:1px;
+    padding:2rem;
+}
+.student-comment__profile{
+display: flex;
+align-items: center;
+gap:1rem;
+height:10.5rem;
+}
+.student-comment__profile-image{
+
+}
+.student-comment__profile-title{
+
+}
+.student-comment__profile-name{
+font-size: 1.8rem;
+line-height: 2.8rem;
+font-weight: 700;
+}
+.student-comment__profile-job{
+font-size: 1.4rem;
+line-height: 2.2rem;
+opacity:0.6;
+/* white-space: nowrap; */
+}
+.student-comment__profile-stars{
+
+}
+.divider{
+position:relative;
+margin: 2rem 0 1rem 0;
+}
+.divider::after{
+content:"";
+width:19.5rem;
+height: 1px;
+background-color:rgba(0, 0, 0, 0.11);
+position: absolute;
+top:13px;
+}
+.student-comment__content{
+
+}

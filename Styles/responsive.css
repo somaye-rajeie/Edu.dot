@@ -155,6 +155,21 @@ width:100%;
   font-size: 3.5rem;
   line-height: 4.5rem;
 }
+.student-comments__header-title{
+    font-size: 3rem;
+    line-height: 4rem;
+}
+.student-comment__profile-name{
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+}
+.student-comment__profile-job{
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+.student-comment__content{
+  font-size: 1.2rem;
+}
 }
 @media screen and (max-width:576px){
 .header-references img{
@@ -181,6 +196,15 @@ text-align: center;
 .header__books-left,
 .header__books-right{
   display:none;
+}
+.student-comments__header-title{
+font-size:2rem;
+line-height:3rem;
+}
+.app-btn{
+  width:12rem;
+  height: 3.8rem;
+  font-size:1.2rem;
 }
 }
 @media screen and (max-width:450px){
