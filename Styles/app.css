@@ -439,8 +439,9 @@ font-weight: 600;
 }
 .course-features__shape{
 position: absolute;
-top:110px;
-left:104px;
+width:42%;
+top:37px;
+left: 65px;
 /* z-index: -1; */
 }
 /* 
@@ -492,4 +493,72 @@ line-height: 3.2rem;
 .job-position__text{
 color: rgba(189, 189, 189, 1);
 margin:1rem 0 2rem 0;
+}
+/* 
+
+===========================
+  section course-quality
+===========================
+
+*/
+.course-quality{
+padding:8rem 0;
+background: linear-gradient(152deg,rgba(255, 252, 242, 1) 5%, rgba(243, 247, 255, 1) 23%, rgba(229, 236, 255, 1) 63%);
+}
+.course-quality__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10rem;
+}
+.course-quality__content{
+max-width:47rem;
+}
+.course-quality__title{
+    font-family: "Poppins SemiBold";
+    font-size: 4.5rem;
+    line-height: 5.5rem;
+}
+.course-quality__text{
+opacity:60%;
+margin:1rem 0 2rem 0;
+}
+.course-quality__video{
+    background-image: url("../images/course-quality2.jpg");
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 1.6rem;
+    -webkit-border-radius: 1.6rem;
+    -moz-border-radius: 1.6rem;
+    -ms-border-radius: 1.6rem;
+    -o-border-radius: 1.6rem;
+    position: relative;
+}
+.course-quality__image{
+margin-bottom: -7.2px;
+margin-top: 11rem;
+/* width:100%; */
+}
+.course-quality__play-btn{
+    width:114px;
+    height: 114px;
+    border-radius:100%;
+    -webkit-border-radius:100%;
+    -moz-border-radius:100%;
+    -ms-border-radius:100%;
+    -o-border-radius:100%;
+    background-color: rgba(255, 255, 255, 1);
+    opacity: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    margin:0 auto;
+    bottom: 0;
+    top: 224px;
+    right: 0;
+    left: 0;
+}
+.course-quality__play-icon path{
+/* opacity:1 !important; */
 }
