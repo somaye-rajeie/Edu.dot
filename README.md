@@ -6,6 +6,6 @@
 You can access the website from this link: [Edu.dot](https://somaye-rajeie.github.io/Edu.dot/)
 ## Project is created with:
 
-```
-HTML, CSS, JavaScript
-```
+
+- HTML, CSS, JavaScript
+
