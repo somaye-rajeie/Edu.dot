@@ -59,6 +59,27 @@ line-height: 1.4rem;
 .how-it-work__item-text{
   font-size: 1.2rem;
 }
+.course-features__wrapper{
+  width:100%;
+}
+.course-features__title{
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+}
+.job-position__wrapper{
+  gap:4rem;
+}
+.job-position__image{
+  width:100%;
+}
+.job-position__title{
+  font-size:1.8rem;
+  line-height: 2.8rem;
+}
+.job-position__text{
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
 .course-quality__video{
   width:50%;
 }
@@ -148,6 +169,22 @@ line-height: 1rem;
 .how-it-work__item:nth-child(5){
    left:-128px;
 }
+.course-features__wrapper{
+flex-direction: column;
+}
+.course-features{
+  padding-top:0;
+}
+.course-features__image{
+max-width: 60%;
+}
+.course-features__shape{
+  top:-122px;
+  left:194px;
+}
+.job-position__wrapper{
+  flex-direction: column;
+}
 .course-quality__wrapper{
   flex-wrap: wrap-reverse;
 }
@@ -212,6 +249,9 @@ text-align: center;
 .header__books-right{
   display:none;
 }
+.course-features__shape{
+  display: none;
+}
 .student-comments__header-title{
 font-size:2rem;
 line-height:3rem;
@@ -223,5 +263,19 @@ line-height:3rem;
 }
 }
 @media screen and (max-width:450px){
-
+  .course-features__title{
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+  .investing-box{
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    width:30.5rem;
+    height:30.5rem;
+    justify-content: center;
+    top:-144px;
+}
 }

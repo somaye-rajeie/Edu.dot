@@ -464,7 +464,7 @@ left: 65px;
 /* 
 
 ===========================
-  section course-features
+    section job-position
 ===========================
 
 */
@@ -479,7 +479,7 @@ justify-content: center;
 gap:6rem;
 }
 .job-position__content{
-    width:48.5rem;
+    /* width:48.5rem; */
     background-color: #fff;
     border-radius:1.6rem;
     -webkit-border-radius:1.6rem;
