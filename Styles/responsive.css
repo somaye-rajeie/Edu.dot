@@ -107,6 +107,10 @@ line-height: 1.4rem;
 }
 }
 @media screen and (max-width:768px){
+.header__books-left,
+.header__books-right{
+  display:none;
+}
   .header__links{
     display: none;
   }
@@ -244,10 +248,6 @@ text-align: center;
 }
 .how-it-work__item{
   position: static;
-}
-.header__books-left,
-.header__books-right{
-  display:none;
 }
 .course-features__shape{
   display: none;

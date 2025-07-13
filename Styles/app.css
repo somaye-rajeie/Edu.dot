@@ -70,12 +70,13 @@ position: relative;
 }
 .header__books-left{
     position:absolute;
-    top:0;
+    top:26px;
+    opacity:0.6;
 }
 .header__books-right{
 position:absolute;
 top:84px;
-right:0;
+right:12px;
 }
 /* 
 header-nav
@@ -543,6 +544,7 @@ margin:1rem 0 2rem 0;
 .course-quality__video{
     background-image: url("../images/course-quality2.jpg");
     background-size: cover;
+    background-position: center;
     object-fit: cover;
     border-radius: 1.6rem;
     -webkit-border-radius: 1.6rem;
