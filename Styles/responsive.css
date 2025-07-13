@@ -77,6 +77,13 @@ line-height: 1.4rem;
   font-size: 2.5rem;
   line-height: 3.5rem;
 }
+.investing-box{
+  width: 65.5rem;
+}
+.investing-box__title{
+  font-size: 2rem;
+  line-height: 3rem;
+}
 }
 @media screen and (max-width:768px){
   .header__links{
@@ -169,6 +176,14 @@ width:100%;
 }
 .student-comment__content{
   font-size: 1.2rem;
+}
+.order{
+  order:1;
+}
+.investing-box{
+  width:40.5rem;
+  padding:1rem 0;
+  gap:2rem;
 }
 }
 @media screen and (max-width:576px){
